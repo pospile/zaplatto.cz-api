@@ -1,0 +1,92 @@
+[
+    {
+        "name": "robrichards/wse-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/robrichards/wse-php.git",
+            "reference": "ed6c3cefaa80604de539e69b0affaca67e11195e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/robrichards/wse-php/zipball/ed6c3cefaa80604de539e69b0affaca67e11195e",
+            "reference": "ed6c3cefaa80604de539e69b0affaca67e11195e",
+            "shasum": ""
+        },
+        "time": "2016-01-29 10:34:55",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "": "src/"
+            },
+            "files": [
+                "xmlseclibs.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "description": "Libraries for adding WS-* support to ext/soap in PHP."
+    },
+    {
+        "name": "nette/tester",
+        "version": "v1.7.1",
+        "version_normalized": "1.7.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nette/tester.git",
+            "reference": "d97534578e8cf66eabe081e7d5eaa4dd527ab0c8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nette/tester/zipball/d97534578e8cf66eabe081e7d5eaa4dd527ab0c8",
+            "reference": "d97534578e8cf66eabe081e7d5eaa4dd527ab0c8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-03-19 14:34:02",
+        "bin": [
+            "src/tester"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "GPL-2.0",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "David Grudl",
+                "homepage": "https://davidgrudl.com"
+            },
+            {
+                "name": "Nette Community",
+                "homepage": "https://nette.org/contributors"
+            }
+        ],
+        "description": "An easy-to-use PHP unit testing framework.",
+        "homepage": "https://tester.nette.org",
+        "keywords": [
+            "nette",
+            "testing",
+            "unit"
+        ]
+    }
+]
